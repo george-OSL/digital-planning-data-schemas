@@ -16,6 +16,16 @@ export interface BaseApplication {
 }
 
 /**
+* @id application.scheduleType
+* @decsription Categorises application according to the National Scheme of Delegation
+ */
+export interface application.scheduleType {
+  result:
+    | schedule1
+    | schedule2
+}
+
+/**
  * @id #LondonApplication
  * @description Application details for project sites within the Greater London Authority (GLA) area
  */
